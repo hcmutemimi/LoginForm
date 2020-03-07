@@ -1,0 +1,30 @@
+html{
+    height:100%;
+    box-sizing: border-box;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    /* sans-serif : chuẩn phông ko có chân */
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+}
+:root{
+    --primary-color: #068;
+    --text-color:#333;
+    --white-color:#fff;
+}
+*{  margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    outline: none;
+}
+.control{
+    color: var(--primary-color);
+    font-size: 1.4rem;
+    position: relative;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    text-decoration: none;
+}

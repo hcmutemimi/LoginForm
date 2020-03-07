@@ -1,0 +1,112 @@
+
+.background{
+    background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.2)),url("https://theplanetd.com/images/Tallest-mountains-in-the-world.jpg");
+    background-position: center ;
+    background-size: cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    color: var(--primary-color);
+
+}
+.login-page{
+    height:100%; 
+    max-height: 510px;
+    width:  400px;
+    background-color: rgba(0,0,0,0.5);
+    top: 10%;
+    left: 35.4%;
+    position: relative;
+    transition: max-height 0.2s;
+} 
+.container{
+    height: calc(100%-92px);
+}
+.or{
+    font-size: 1rem;
+    padding: 0 16px;
+}
+.header{
+    padding: 50px 0px 20px 90px;
+    height: 92px;
+}
+.register-form__input{
+    padding: 0 30px;
+}
+input[type=text]{
+    height: 20px;
+    width: 270px;
+    background-color: transparent;
+    border: none;
+    font-size: 0.9rem;
+    margin-bottom:6px;
+    color: var(--white-color);
+}
+.register-form__input-lable{
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: 500;
+    line-height: 1.4rem;
+    padding: 14px 0 ;
+}
+.register-form__check-agree{
+    margin: 30px 30px;
+    color: var(--white-color);
+    font-size: 0.8rem;
+    font-weight: 200;
+}
+input[type = checkbox]{
+  margin-right: 3px;
+}
+.register-form__check-agree-sub{
+    margin-right: 6px;
+}
+.items-service{
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.btn-register{
+    height: 32px;
+    width: 160px;
+    border: 2px solid rgb(4, 247, 210);
+    border-radius: 45px;
+    color: var(--white-color);
+    font-size: 1rem;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.action{
+    display: flex;
+    margin: 40px 0 0 120px ;
+}
+.icon{
+    width: 16px;
+    height: 16px;
+}
+.extend form {
+	right: 100%;
+}
+.extend {
+	max-height: 480px;
+}
+.header .selected {
+	position: relative;
+	color:  rgb(4, 247, 210);
+	/* font-weight: 700; */
+}
+.header .selected:after {
+	position: absolute;
+    content: "";
+	top: 26px;
+	left: 0;
+	height: 2px;
+	width: 100%;
+	background: rgb(4, 247, 210);
+	border-radius: 99px 99px 0 0;
+}
+.container .login-form{
+    display: none;
+}
